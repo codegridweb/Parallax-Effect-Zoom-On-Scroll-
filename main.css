@@ -1,0 +1,43 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      background: #2C2F34;
+}
+
+.content {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      max-width: 1200px;
+      padding: 40px 0 40px 0;
+}
+
+.hero-back {
+      width: 100%;
+      height: calc(100vh);
+      background: url(hero.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      position: relative;
+}
+
+h1 {
+      font-family: Poppins;
+      color: #fff;
+}
+
+p {
+      font-family: Poppins;
+      line-height: 30px;
+      color: #fff;
+      font-weight: lighter;
+}
+
+.hero-back img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+}
